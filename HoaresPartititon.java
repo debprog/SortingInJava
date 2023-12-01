@@ -2,7 +2,7 @@ public class HoaresPartititon {
 
     static int hpartition(int a[], int l, int h) {
         int pivot = a[l];
-        int i = l - 1, j = h - 1;
+        int i = l - 1, j = h + 1;
 
         while (true) {
             do {
